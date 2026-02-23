@@ -9,11 +9,6 @@
     gap: 20px;
 }
 
-@font-face {
-  font-family: 'Khmer OS Muol';
-  src: url('fonts/KhmerOSMuol.ttf') format('truetype');
-}
-
 h1 {
   font-family: 'Khmer OS Muol', sans-serif;
   text-align: center;
