@@ -13,6 +13,14 @@ h1 {
   font-family: 'Khmer OS Muol', sans-serif;
   text-align: center;
 }
+html, body {
+  font-family: 'Kantumruy Pro', sans-serif !important;
+  -webkit-text-size-adjust: none;
+}
+body, h1, h2, h3, p, a {
+  font-family: 'Kantumruy Pro', sans-serif !important;
+}
+
 
 body {
   width: auto;
