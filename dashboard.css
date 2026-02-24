@@ -16,6 +16,7 @@ h1 {
 html, body {
   font-family: 'Kantumruy Pro', sans-serif !important;
   -webkit-text-size-adjust: none;
+  scroll-behavior: smooth;
 }
 body, h1, h2, h3, p, a {
   font-family: 'Kantumruy Pro', sans-serif !important;
@@ -63,7 +64,6 @@ a {
     color: rgb(255, 255, 255);
     font-weight: bold;
     font-size: 20px;
-    scroll-behavior: smooth;
 }
 
 .dropdown {
