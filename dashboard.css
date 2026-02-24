@@ -57,11 +57,11 @@ a {
 
 /* Paragraphs */
 p {
-    text-align: justify;
+    text-align: left;
     font-size: 18px;
     text-indent: 20px;
-    line-height: 1.3;   /* tighter line spacing */
-    margin: 6px 0;      /* reduced spacing between paragraphs */
+    line-height: 1.5;   /* tighter line spacing */
+    margin: 10px 0;      /* reduced spacing between paragraphs */
 }
 
 /* Bold text */
