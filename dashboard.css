@@ -61,7 +61,7 @@ p {
     font-size: 18px;
     text-indent: 20px;
     line-height: 1.5;   /* tighter line spacing */
-    margin: 10px 0;      /* reduced spacing between paragraphs */
+    margin: 10px 0;     /* reduced spacing between paragraphs */
 }
 
 /* Bold text */
@@ -166,6 +166,9 @@ b {
     h1 {
         font-size: 20px;
     }
+    h3 {
+        font-size: 20px; /* keep headings balanced with smaller text */
+    }
     .text {
         font-size: 16px;
         margin: 10px;
@@ -187,5 +190,12 @@ b {
     .gallery img {
         max-width: 120px; /* proportional scaling */
         height: auto;
+    }
+    /* Adjust paragraph spacing for phones */
+    p {
+        font-size: 16px;       /* slightly smaller text */
+        line-height: 1.3;      /* tighter spacing */
+        text-indent: 10px;     /* smaller indent */
+        margin: 6px 0;         /* less vertical gap */
     }
 }
