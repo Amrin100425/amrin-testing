@@ -36,7 +36,10 @@ html, body {
 body, h1, h2, h3, p, a {
     font-family: 'Kantumruy Pro', sans-serif !important;
 }
-
+h2{
+    text-align: center;
+    color: rgb(255, 0, 0);
+}
 /* Body */
 body {
     width: auto;
@@ -68,7 +71,33 @@ p {
 b {
     text-decoration: underline;
 }
+button{
+    width: 100px;
+    background-color: rgb(255, 0, 0);
+    height: 40px;
+    font-size: 16px;
+    margin: 20px auto;
+    color: white;
+    display: block;
+    border-radius: 7px;
+}
 
+.button-two{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+     width: 100px;
+    height: 40px;
+    font-size: 16px;
+    padding: 5px 10px;
+    margin: 20px auto;
+    color: white;
+    border-radius: 7px;
+}
+h4{
+    text-align: center;
+    color: rgb(47, 0, 255);
+}
 /* Dropdown menus */
 .dropdown {
     position: relative;
@@ -135,7 +164,13 @@ b {
     margin: 20px auto;
     border-radius: 10px;
 }
-
+.gallery2{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 500px;
+    flex-wrap: wrap;
+}
 /* Gallery */
 .gallery {
     display: flex;
