@@ -194,6 +194,11 @@ h4{
     .red-title {
         font-size: 26px;
     }
+    .button-two {
+        width: 120px;
+        height: 45px;
+        font-size: 18px;
+    }
 }
 
 /* Responsive for phones */
@@ -214,6 +219,13 @@ h4{
         font-size: 14px;
         margin: 10px auto;
         display: block;
+    }
+    .button-two {
+        width: 100px;
+        height: 40px;
+        font-size: 16px;
+        padding: 5px 10px;
+        margin: 10px auto;
     }
     a {
         font-size: 16px;
